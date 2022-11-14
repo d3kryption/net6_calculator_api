@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "7GOuBnF0uFU43nZnAa9V4F7wIERDWFp9ZlRdVsqUSTI=",
+  "Source": "NET6_Calculator_API",
+  "BasePath": "_content/NET6_Calculator_API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

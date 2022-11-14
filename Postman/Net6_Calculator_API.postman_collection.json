@@ -1,0 +1,173 @@
+{
+	"info": {
+		"_postman_id": "bd6479c0-72d2-402b-8608-c52d1caa5228",
+		"name": "Net6_Calculator_API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Calculator",
+			"item": [
+				{
+					"name": "Add",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:7194/Add?a=25&b=50",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7194",
+							"path": [
+								"Add"
+							],
+							"query": [
+								{
+									"key": "a",
+									"value": "25"
+								},
+								{
+									"key": "b",
+									"value": "50"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Subtract",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:7194/Subtract?a=50&b=25",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7194",
+							"path": [
+								"Subtract"
+							],
+							"query": [
+								{
+									"key": "a",
+									"value": "50"
+								},
+								{
+									"key": "b",
+									"value": "25"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Divide",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:7194/Subtract?a=25&b=5",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7194",
+							"path": [
+								"Subtract"
+							],
+							"query": [
+								{
+									"key": "a",
+									"value": "25"
+								},
+								{
+									"key": "b",
+									"value": "5"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Multiply",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:7194/Multiply?a=25&b=5",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7194",
+							"path": [
+								"Multiply"
+							],
+							"query": [
+								{
+									"key": "a",
+									"value": "25"
+								},
+								{
+									"key": "b",
+									"value": "5"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Logger",
+			"item": [
+				{
+					"name": "GetLog",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:7194/Logger",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7194",
+							"path": [
+								"Logger"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "ClearLog",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:7194/Logger",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7194",
+							"path": [
+								"Logger"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
